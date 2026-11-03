@@ -1,0 +1,17 @@
+n=7
+for i in range(2,int(n**0.5)+1):
+    if n%i==0:
+        print("Not Prime")
+        break
+else:
+    print("prime")
+# if a<2:
+#     print("F")
+# else:
+#     for i in range(2,a**5):
+#         if a%i==0:
+#             print("F") 
+#             break
+#     else:
+#         print("T")
+
